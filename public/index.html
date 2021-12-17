@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Twitter</title>
+    <link rel="stylesheet" href="../src/css/blocks/layout.css" />
+    <link rel="stylesheet" href="../src/css/blocks/brand.css" />
+    <link rel="stylesheet" href="../src/css/blocks/sidebar-menu.css">
+    <link rel="stylesheet" href="../src/css/blocks/tweet.css">
+    <link rel="stylesheet" href="../src/css/global.css">
+    <link rel="stylesheet" href="../src/css/blocks/whats-happening.css">
+    <link rel="stylesheet" href="../src/css/blocks/who-to-follow.css">
+    <style>
+      @font-face {
+      font-family: TwitterChirpExtendedHeavy;
+      src: url(https://abs.twimg.com/fonts/v1/chirp-extended-heavy-web.woff2) format('woff2');
+      src: url(https://abs.twimg.com/fonts/v1/chirp-extended-heavy-web.woff) format('woff');
+      font-weight: 800;
+      font-style: 'normal';
+      font-display: 'swap';
+    }
+    @font-face {
+      font-family: TwitterChirp;
+      src: url(https://abs.twimg.com/fonts/v2/chirp-regular-web.woff2) format('woff2');
+      src: url(https://abs.twimg.com/fonts/v2/chirp-regular-web.woff) format('woff');
+      font-weight: 400;
+      font-style: 'normal';
+      font-display: 'swap';
+    }
+    @font-face {
+      font-family: TwitterChirp;
+      src: url(https://abs.twimg.com/fonts/v2/chirp-medium-web.woff2) format('woff2');
+      src: url(https://abs.twimg.com/fonts/v2/chirp-medium-web.woff) format('woff');
+      font-weight: 500;
+      font-style: 'normal';
+      font-display: 'swap';
+    }
+    @font-face {
+      font-family: TwitterChirp;
+      src: url(https://abs.twimg.com/fonts/v2/chirp-bold-web.woff2) format('woff2');
+      src: url(https://abs.twimg.com/fonts/v2/chirp-bold-web.woff) format('woff');
+      font-weight: 700;
+      font-style: 'normal';
+      font-display: 'swap';
+    }
+    @font-face {
+      font-family: TwitterChirp;
+      src: url(https://abs.twimg.com/fonts/v2/chirp-heavy-web.woff2) format('woff2');
+      src: url(https://abs.twimg.com/fonts/v2/chirp-heavy-web.woff) format('woff');
+      font-weight: 800;
+      font-style: 'normal';
+      font-display: 'swap';
+    }
+    </style>
+  </head>
+  <body>
+    <div class="layout">
+      <!-- left side -->
+      <div class="layout__left-sidebar">
+        <img src="../src/images/svg/twitter.svg" class = "brand" alt="">
+        left
+        <div class="sidebar-menu">
+          <div class="sidebar-menu__item sidebar-menu__item--active">
+            <img src="../src/images/svg/home-active.svg" alt="" class="sidebar-menu__item-icon"/>
+            Home
+          </div>
+          <div class="sidebar-menu__item">
+            <img src="../src/images/svg/explore.svg" alt="" class="sidebar-menu__item-icon"/>
+            Explore
+          </div>
+          <div class="sidebar-menu__item">
+            <img src="../src/images/svg/notifications.svg" alt="" class="sidebar-menu__item-icon"/>
+            Notifications
+          </div>
+          <div class="sidebar-menu__item">
+            <img src="../src/images/svg/messages.svg" alt="" class="sidebar-menu__item-icon"/>
+            Messages
+          </div>
+          <div class="sidebar-menu__item">
+            <img src="../src/images/svg/bookmarks.svg" alt="" class="sidebar-menu__item-icon"/>
+            Bookmarks
+          </div>
+          <div class="sidebar-menu__item">
+            <img src="../src/images/svg/lists.svg" alt="" class="sidebar-menu__item-icon"/>
+            Lists
+          </div>
+          <div class="sidebar-menu__item">
+            <img src="../src/images/svg/profile.svg" alt="" class="sidebar-menu__item-icon"/>
+            Profile
+          </div>
+          <div class="sidebar-menu__item">
+            <img src="../src/images/svg/more.svg" alt="" class="sidebar-menu__item-icon"/>
+            More
+          </div>
+        </div>
+      </div>
+
+      <!-- center -->
+      <div class="layout__center">
+        <div class="tweet">
+          <img src="../src/images/jpeg/profile-pic-2.jpeg" alt="" class="tweet__author-logo">
+          <div class="tweet__main">
+            <div class="tweet__header">
+              <div class="tweet__author-name">
+                Karthik
+              </div>
+              <div class="tweet__author-slug">
+                @karthik-ravic
+              </div>
+              <div class="tweet__publish-time">
+                20m
+              </div>
+            </div>
+            <div class="tweet__content">
+              hey
+            </div>
+          </div>
+        </div>
+
+        <div class="tweet">
+          <img src="../src/images/jpeg/harsha.jpg" alt="" class="tweet__author-logo">
+          <div class="tweet__main">
+            <div class="tweet__header">
+              <div class="tweet__author-name">
+                Harsha 
+              </div>
+              <div class="tweet__author-slug">
+                @harsha-singh
+              </div>
+              <div class="tweet__publish-time">
+                15m
+              </div>
+            </div>
+            <div class="tweet__content">
+              hey
+            </div>
+          </div>
+        </div>
+
+        <div class="tweet">
+          <img src="../src/images/jpeg/badal.png" alt="" class="tweet__author-logo">
+          <div class="tweet__main">
+            <div class="tweet__header">
+              <div class="tweet__author-name">
+                Badal
+              </div>
+              <div class="tweet__author-slug">
+                @badal-pareta
+              </div>
+              <div class="tweet__publish-time">
+                10m
+              </div>
+            </div>
+            <div class="tweet__content">
+              hey
+            </div>
+          </div>
+        </div>
+
+        <div class="tweet">
+          <img src="../src/images/jpeg/tuhin.jpg" alt="" class="tweet__author-logo">
+          <div class="tweet__main">
+            <div class="tweet__header">
+              <div class="tweet__author-name">
+                Tuhin
+              </div>
+              <div class="tweet__author-slug">
+                @tuhin-bhomwick
+              </div>
+              <div class="tweet__publish-time">
+                20m
+              </div>
+            </div>
+            <div class="tweet__content">
+              hey
+            </div>
+          </div>
+        </div>
+
+        <div class="tweet">
+          <img src="../src/images/jpeg/raghav.jpg" alt="" class="tweet__author-logo">
+          <div class="tweet__main">
+            <div class="tweet__header">
+              <div class="tweet__author-name">
+                Raghav
+              </div>
+              <div class="tweet__author-slug">
+                @ragavendhar-chouhan
+              </div>
+              <div class="tweet__publish-time">
+                20m
+              </div>
+            </div>
+            <div class="tweet__content">
+              hey
+            </div>
+          </div>
+        </div>
+
+        <div class="tweet">
+          <img src="../src/images/jpeg/profile-pic-1.jpg" alt="" class="tweet__author-logo">
+          <div class="tweet__main">
+            <div class="tweet__header">
+              <div class="tweet__author-name">
+                Ayush
+              </div>
+              <div class="tweet__author-slug">
+                @ayush-giri
+              </div>
+              <div class="tweet__publish-time">
+                1h
+              </div>
+            </div>
+            <div class="tweet__content">
+              hey guys check out official MDN resources
+              <a href="https://developer.mozilla.org/en-US/">https://developer.mozilla.org/en-US/</a>
+               
+              <img class = "tweet__image" src="../src/images/jpeg/mdn.png" alt="">
+            </div>
+
+            <div class="tweet__content">
+              hey guys check out official MDN resources
+              <a href="https://developer.mozilla.org/en-US/">https://developer.mozilla.org/en-US/</a>
+               
+              <img class = "tweet__image" src="../src/images/jpeg/mdn.png" alt="">
+            </div>
+
+            <div class="tweet__content">
+              hey guys check out official MDN resources
+              <a href="https://developer.mozilla.org/en-US/">https://developer.mozilla.org/en-US/</a>
+               
+              <img class = "tweet__image" src="../src/images/jpeg/mdn.png" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- right side -->
+      <div class="layout__right-sidebar-container">
+        <div class="layout__right-sidebar">
+          right
+          <div id="search-bar"></div>
+          <div class="whats-happening">
+            <div class="whats-happening__block">
+              <div class="whats-happening__heading">
+                What's happening
+              </div>
+            </div>
+
+            <div class="whats-happening__block">
+              <div class="whats-happening__meta-information">
+                Trending in India
+              </div>
+              <div class="whats-happening__trend-name">
+                #Spiderman
+              </div>
+              <div class="whats-happening__meta-information">
+                210K tweets
+              </div>
+            </div>
+
+            <div class="whats-happening__block">
+              <div class="whats-happening__meta-information">
+                Trending in India
+              </div>
+              <div class="whats-happening__trend-name">
+                #NewtonSchool
+              </div>
+              <div class="whats-happening__meta-information">
+                50K tweets
+              </div>
+            </div>
+
+            <div class="whats-happening__block">
+              <div class="whats-happening__meta-information">
+                Trending - Trending
+              </div>
+              <div class="whats-happening__trend-name">
+                #TobyMacquire
+              </div>
+              <div class="whats-happening__meta-information">
+                500K tweets
+              </div>
+            </div>
+
+            <div class="whats-happening__block">
+              <div class="whats-happening__meta-information">
+                 
+              </div>
+              <div class="whats-happening__trend-name">
+                #Ashes
+              </div>
+              <div class="whats-happening__meta-information">
+                210k tweets
+              </div>
+            </div>
+
+            <div class="whats-happening__block">
+              <div class="whats-happening__footer">
+                <a href="">Show more</a>
+              </div>
+            </div>
+
+          </div>
+          <div class="who-to-follow">
+            
+              <div class="who-to-follow__heading">
+                Who to follow
+              </div>
+            
+
+            <div class="who-to-follow__block">
+              <img class = "who-to-follow__author-logo" src="../src/images/jpeg/harsha.jpg" alt="">
+              <div class="who-to-follow__content">
+                <div>
+                  <div class = "who-to-follow__author-name">
+                    Harsha
+                  </div>
+                  <div class="who-to-follow__author-slug">
+                    @harsha-singh
+                  </div>
+                </div>
+              </div>
+              <div class="who-to-follow__button">
+                Follow
+              </div>
+           </div>
+
+           <div class="who-to-follow__block">
+            <img class = "who-to-follow__author-logo" src="../src/images/jpeg/badal.png" alt="">
+            <div class="who-to-follow__content">
+              <div>
+                <div class = "who-to-follow__author-name">
+                  Badal
+                </div>
+                <div class="who-to-follow__author-slug">
+                  @badal-pareta
+                </div>
+              </div>
+            </div>
+            <div class="who-to-follow__button">
+              Follow
+            </div>
+         </div>
+
+         <div class="who-to-follow__block">
+          <img class = "who-to-follow__author-logo" src="../src/images/jpeg/tuhin.jpg" alt="">
+          <div class="who-to-follow__content">
+            <div>
+              <div class = "who-to-follow__author-name">
+                Tuhin
+              </div>
+              <div class="who-to-follow__author-slug">
+                @tuhin-bhomwick
+              </div>
+            </div>
+          </div>
+          <div class="who-to-follow__button">
+            Follow
+          </div>
+       </div>
+
+       <div class="who-to-follow__block">
+        <img class = "who-to-follow__author-logo" src="../src/images/jpeg/harsha.jpg" alt="">
+        <div class="who-to-follow__content">
+          <div>
+            <div class = "who-to-follow__author-name">
+              Raghav
+            </div>
+            <div class="who-to-follow__author-slug">
+              @ragavendhar-chouhan
+            </div>
+          </div>
+        </div>
+        <div class="who-to-follow__button">
+          Follow
+        </div>
+     </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  
+</html>
